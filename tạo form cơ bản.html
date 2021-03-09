@@ -4,7 +4,53 @@
     <title>bai tap tao form co ban</title>
 </head>
 <body>
-    <center> <h1 style="background-color: red;"> sở thích của bạn</h1> </center>
+    <table border="1">
+        <tr>
+        <td colspan="4">
+  <center>  <h1 style="background-color: red;"> sở thích của bạn</h1> </center>
+   </td>
+   </tr>
+   <tr>
+       <td>
+  <p style="color: royalblue;">họ và tên  </p> 
+    </td>
+    <td colspan="3">
+        <input type="text" name="yourname">
+</td>
+    </tr>
+ <tr>
+     <td> <p style="color: royalblue;">email </p>
+        <td colspan="3"> 
+             <input type="text" name="email">
+</td>
+</tr>
+<tr>
+    <td rowspan="3" style="vertical-align: text-top;">
+ <p style="color: blue;"> sở thích </p>
+    </td>
+   <td colspan="3">
+ <p style="color: orange;" > <input type="checkbox" name="hobby"> thể thao <input type="checkbox" name="hobby"> âm nhạc <input type="checkbox" name="hobby"> đọc sách  </p>
+</td>
+</tr>
+<tr>
+  
+    <td colspan="3">
+<p style="color: orange;" ><input type="checkbox" name="hobby" id=""> điện ảnh <input type="checkbox" name="hobby" id=""> lướt web <input type="checkbox" name="" id=""> chơi game </p>
+</td>
+</tr>
+<tr>
    
+     <td colspan="3">
+<p style="color: orange;" ><input type="checkbox" name="hobby" id=""> du lịch</p> 
+</td>
+</tr>
+<tr>
+    <td>
+    </td>
+    <td>
+ <label for=""> <input type="submit" name="send" id="send" value=" gửi thông tin"> <input type="reset" name="reset" id="" value="nhập lại"></label>
+</td>
+</tr>
+</table>
 </body>
 </html>
