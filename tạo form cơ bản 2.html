@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>bài tập tạo form cơ bản số 2</title>
+</head>
+<body>
+    <table border="1" style="background-color: gold;">
+        <tr style="background-color: deepskyblue;">
+            <td colspan="3" style="color:blue;">ĐĂNG KÝ HỌC VIÊN</td>
+        </tr>
+        <tr>
+            <td>họ và tên
+            </td>
+            <td colspan="2">
+                <input type="text" name="name" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>ngày sinh</td>
+            <td colspan="2"> <input type="text" name="dob" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>giới tính</td>
+            <td colspan="2"><input type="radio" name="gender">nam <input type="radio" name="gender"> nữ </td>
+        </tr>
+        <tr>
+            <td>địa chỉ</td>
+            <td rowspan="2"> <input type="text" name="address"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>lớp</td>
+            <td colspan="2"> <select name="class" id="" value="chọn lớp">
+                <option value="A"> LỚP A</option>
+                <option value="B"> LỚP B</option>
+                <option value="C"> LỚP C</option>
+                <option value="D"> LỚP D</option>
+                <option value="E"> LỚP E</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>email</td>
+            <td colspan="2"><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td>điện thoại</td>
+            <td colspan="2"><input type="text" name="phone"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2">
+                  <input type="submit" value="đăng ký">
+                <input type="reset" value="nhập lại"> 
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>
